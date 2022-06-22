@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    .produto {
+        background: rgb(246, 245, 245);
+        border: solid 2px black;
+        margin-left: 2%;
+        margin-top: 2%;
+        width: 250px;
+        height: 400px;
+
+        .produto_img {
+
+            img {
+                width: 100%;
+                border: solid 2px black;
+            }
+
+        }
+
+        .produto_desc {
+            text-align: center;
+
+            h3 {
+                font-size: 25px;
+                color: $cor_letra;
+                margin-bottom: 2%;
+            }
+
+            h5 {
+                font-size: 20px;
+                color: $cor_valor;
+            }
+
+            input {
+                margin-top: 2%;
+                height: 45px;
+                width: 150px;
+                cursor: pointer;
+
+                &:hover {
+                    background: bisque;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.topo {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+    background: rgb(243, 240, 240);
+    padding-top: 10px;
+    height: 70px;
+
+
+    .menu {
+        display: flex;
+        @include lista-menu;
+    }
+
+    .logo {
+        color: rgb(48, 59, 109);
+    }
+
+    .user {
+        display: flex;
+        list-style: none;
+        @include lista-menu;
+        font-size: 35px;
+    }
+}

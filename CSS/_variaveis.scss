@@ -1,0 +1,26 @@
+// ------------------- Arquivo com variaveis, funções e fragmento de codigos -------------------
+
+$cor_letra: rgb(48, 59, 109);
+$cor_valor:rgb(43, 133, 85);
+
+@mixin lista-menu {
+    list-style: none;
+
+    li {
+        padding: 10px;
+        transition: 0.6s;
+
+        a {
+            color: $cor_letra;
+            font-weight: 600;
+            // color: rgb(82, 82, 82);
+            text-decoration: none;
+        }
+
+        &:hover {
+            font-size: 1.2em;
+        }
+
+    }
+
+}
