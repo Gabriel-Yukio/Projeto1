@@ -70,7 +70,12 @@
   font-size: 1.2em;
 }
 
-main {
+.titulo_produto {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.principal {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,43 +83,53 @@ main {
       flex-wrap: wrap;
 }
 
-main .produto {
-  background: #f6f5f5;
-  border: solid 2px black;
+.principal .produto {
   margin-left: 2%;
   margin-top: 2%;
   width: 250px;
   height: 400px;
 }
 
-main .produto .produto_img img {
+.principal .produto .produto_img img {
   width: 100%;
-  border: solid 2px black;
+  cursor: pointer;
 }
 
-main .produto .produto_desc {
+.principal .produto .produto_desc {
   text-align: center;
 }
 
-main .produto .produto_desc h3 {
+.principal .produto .produto_desc h3 {
   font-size: 25px;
   color: #303b6d;
   margin-bottom: 2%;
 }
 
-main .produto .produto_desc h5 {
-  font-size: 20px;
+.principal .produto .produto_desc h5 {
+  font-size: 18px;
   color: #2b8555;
 }
 
-main .produto .produto_desc input {
+.principal .produto .produto_desc input {
   margin-top: 2%;
   height: 45px;
   width: 150px;
   cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  -webkit-transition: 00.6s;
+  transition: 00.6s;
+  border: solid 2px red;
+  border-radius: 5px;
+  background: #fb4747;
+  color: #ffffff;
 }
 
-main .produto .produto_desc input:hover {
-  background: bisque;
+.principal .produto .produto_desc input:hover {
+  height: 53px;
+  width: 155px;
+  border: solid 2px green;
+  background: #47fb83;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

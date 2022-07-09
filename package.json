@@ -1,0 +1,27 @@
+{
+  "name": "projeto1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-Yukio/Projeto1.git"
+  },
+  "author": "Gabriel Yukio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel-Yukio/Projeto1/issues"
+  },
+  "homepage": "https://github.com/Gabriel-Yukio/Projeto1#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.18",
+    "sequelize": "^6.21.1",
+    "sqlite3": "^5.0.8"
+  }
+}

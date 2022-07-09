@@ -1,7 +1,7 @@
 // ------------------- Arquivo com variaveis, funções e fragmento de codigos -------------------
 
-$cor_letra: rgb(48, 59, 109);
-$cor_valor:rgb(43, 133, 85);
+$cor_letra: rgb(48, 59, 109); // cor letra titulo produto
+$cor_valor:rgb(43, 133, 85); // cor letrar valor produto
 
 @mixin lista-menu {
     list-style: none;

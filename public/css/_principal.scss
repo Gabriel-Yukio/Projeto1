@@ -1,11 +1,14 @@
-main {
+.titulo_produto {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.principal {
     display: flex;
     flex-wrap: wrap;
 
-
     .produto {
-        background: rgb(246, 245, 245);
-        border: solid 2px black;
+        
         margin-left: 2%;
         margin-top: 2%;
         width: 250px;
@@ -15,7 +18,7 @@ main {
 
             img {
                 width: 100%;
-                border: solid 2px black;
+                cursor: pointer;
             }
 
         }
@@ -26,11 +29,11 @@ main {
             h3 {
                 font-size: 25px;
                 color: $cor_letra;
-                margin-bottom: 2%;
+                margin-bottom: 2%;              
             }
 
             h5 {
-                font-size: 20px;
+                font-size: 18px;
                 color: $cor_valor;
             }
 
@@ -39,9 +42,21 @@ main {
                 height: 45px;
                 width: 150px;
                 cursor: pointer;
+                font-size: 20px;
+                font-weight: 700;
+                transition: 00.6s;
+                border: solid 2px red;
+                border-radius: 5px;
+                background: rgb(251, 71, 71);
+
+                color: #ffffff;
 
                 &:hover {
-                    background: bisque;
+                    height: 53px;
+                    width: 155px;
+                    border: solid 2px green;
+                    background: rgb(71, 251, 131);
+                    color: #ffffff;
                 }
             }
         }
